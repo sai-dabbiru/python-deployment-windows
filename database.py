@@ -28,7 +28,7 @@ username = list(creds.keys())[0]          # 'postgres'
 password = creds[username]                # 'admin'
 
 # Construct the DATABASE_URL dynamically
-DATABASE_URL = f"postgresql://{username}:{password}@54.88.116.157:5432/template1"
+DATABASE_URL = f"postgresql://{username}:{password}@54.159.17.54:5432/template1"
 
 # SQLAlchemy setup
 engine = create_engine(DATABASE_URL)
